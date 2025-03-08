@@ -1,0 +1,16 @@
+make the run the inertia project in local 
+
+then change .env to the env I gave you 
+
+step one : setup the deployment env 
+step 2 : delete the node mudules and public/build 
+step 3 : command :  npm i with the  new env 
+step 4 : npm run dev
+step 5 : npm run build 
+step 6 : npm run dev
+
+then zip and upload it. 
+
+**** deployment updated composer command ***
+php composer.phar install --no-dev --optimize-autoloader
+
